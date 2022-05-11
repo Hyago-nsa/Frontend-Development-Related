@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://bootstrapious.com/tutorial/sidebar/index2.html -->
+<html class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" href="images\logo-h.png">
+    <title>Hyago Eurico | Coder</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Awesome JS -->
+    <script defer="" src="./Collapsible sidebar using Bootstrap 4_files/solid.js.baixados"
+        integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+        crossorigin="anonymous"></script>
+    <script defer="" src="./Collapsible sidebar using Bootstrap 4_files/fontawesome.js.baixados"
+        integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar" class="mCustomScrollbar _mCS_1 mCS-autoHide mCS_no_scrollbar" style="overflow: visible;">
+            <div id="mCSB_1" class="mCustomScrollBox mCS-minimal mCSB_vertical mCSB_outside" style="max-height: 100vh;"
+                tabindex="0">
+                <div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y"
+                    style="position:relative; top:0; left:0;" dir="ltr">
+                    <div class="sidebar-header">
+                        <h3>Hey, Folk!</h3>
+                    </div>
+
+                    <ul class="list-unstyled components">
+                        <p>More info below!</p>
+                        <li>
+                            <a href="https://bootstrapious.com/tutorial/sidebar/index2.html#">Home</a>
+                        </li>
+                        <li>
+                            <a href="https://bootstrapious.com/tutorial/sidebar/index2.html#">About</a>
+                        </li>
+
+                        <li>
+                            <a href="https://bootstrapious.com/tutorial/sidebar/index2.html#">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="https://bootstrapious.com/tutorial/sidebar/index2.html#">Contact</a>
+                        </li>
+                    </ul>
+
+                    <ul class="list-unstyled CTAs logos">
+
+
+                        <li>
+                            <a><img class="logo" src="images\GitHub-logo-squared-2.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a><img class="logo" src="images\linkedin-icon-2.svg" alt=""></a>
+                        </li>
+                        <li>
+                            <a><img class="logo" src="images\Facebook_logo_(square).png" alt=""></a>
+                        </li>
+                    </ul>
+
+                    <ul class="MUB">
+                        <a>Made using Bootstrap ❤</a>
+                    </ul>
+                </div>
+            </div>
+            <div id="mCSB_1_scrollbar_vertical"
+                class="mCSB_scrollTools mCSB_1_scrollbar mCS-minimal mCSB_scrollTools_vertical" style="display: none;">
+                <div class="mCSB_draggerContainer">
+                    <div id="mCSB_1_dragger_vertical" class="mCSB_dragger"
+                        style="position: absolute; min-height: 50px; height: 0px; top: 0px;">
+                        <div class="mCSB_dragger_bar" style="line-height: 50px;"></div>
+                    </div>
+                    <div class="mCSB_draggerRail"></div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Content  -->
+
+        <div id="content" class="">
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <svg class="svg-inline--fa fa-align-left fa-w-14" aria-hidden="true" data-prefix="fas"
+                            data-icon="align-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                            data-fa-i2svg="">
+                            <path fill="currentColor"
+                                d="M288 44v40c0 8.837-7.163 16-16 16H16c-8.837 0-16-7.163-16-16V44c0-8.837 7.163-16 16-16h256c8.837 0 16 7.163 16 16zM0 172v40c0 8.837 7.163 16 16 16h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16zm16 312h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm256-200H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16h256c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16z">
+                            </path>
+                        </svg><!-- <i class="fas fa-align-left"></i> -->
+                        <span>Sidebar</span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <svg class="svg-inline--fa fa-align-justify fa-w-14" aria-hidden="true" data-prefix="fas"
+                            data-icon="align-justify" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512" data-fa-i2svg="">
+                            <path fill="currentColor"
+                                d="M0 84V44c0-8.837 7.163-16 16-16h416c8.837 0 16 7.163 16 16v40c0 8.837-7.163 16-16 16H16c-8.837 0-16-7.163-16-16zm16 144h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 256h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0-128h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                            </path>
+                        </svg><!-- <i class="fas fa-align-justify"></i> -->
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link"
+                                    href="https://bootstrapious.com/tutorial/sidebar/index2.html#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="https://bootstrapious.com/tutorial/sidebar/index2.html#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="https://bootstrapious.com/tutorial/sidebar/index2.html#">Portfolio</a>
+                            </li>
+                            <li class="nav-item pr-4">
+                                <a class="nav-link"
+                                    href="https://bootstrapious.com/tutorial/sidebar/index2.html#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link language"
+                                    href="https://bootstrapious.com/tutorial/sidebar/index2.html#">EN - US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            </p>
+            <div class="container-fluid">
+                <div class="apresentation" id="">
+
+                    <h1>Hi,</h1>
+                    <h1>I'm Hyago.</h1>
+                    <h1>Nice to meet you.</h1>
+                    <h5>C.S Student / Coder</h5>
+                    <p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+
+            <div class="page">
+                <div class="line"></div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <img class="img" src="images\dog-img.jpg">
+                        </div>
+
+                        <div class="col-lg-7">
+                            <h2 class="title-letter">Who I am?</h2>
+                            <h5 class="mb-4">I'm lazy, that's how i started to code.</h5>
+
+                            <p>Hello! I’m a Computer Science student based in Brazil.</p>
+                            <p>My passion for code has begun when i typed my first code and it worked properly; it was
+                                marvelous.</p>
+                            <p>Eventually, I decided it would be fun to implement my business knowledge with code...
+                                That was the best choice I've ever made in my entire life;</p>
+                            <p>After that, most part of the problems could be solved or optimized, allowing me to save
+                                time and bring better results.</p>
+                            <p>Interesed in both Front-end and Back-end spectrum and working with positive people.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <h2>What can i do?</h2>
+                            <h5>I like to code things using Python, SQL, HTML, CSS and JavaScript.</h5>
+
+                            <p>Bringing ideas to life is really satisfying. Doesn't matter if i'm digging into a
+                                database searching for insights, coding a Website or developing an app;</p>
+                            <p>Create things is the real magic, and it brings me joy.</p>
+                            <p>In Python, I can use some libraries, such as Matplotlib and Pandas, to support me in
+                                different types of development and research.</p>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <img class="img" src="images\lady-img.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="portfolio">
+                        <div class="line"></div>
+
+                        <h2>Portfolio</h2>
+                        <h5>A few projects I've worked on recently.</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 mt-3 col-sm-12 img">
+                                <img class="img" src=images\portfolio-img.png>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mt-3 col-sm-12 img">
+                                <img class="img" src=images\portfolio-img.png>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mt-3 col-sm-12 img">
+                                <img class="img" src=images\portfolio-img.png>
+                            </div>
+                            <div class="col-lg-3 col-md-6 mt-3 col-sm-12 img">
+                                <img class="img" src=images\portfolio-img.png>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- jQuery CDN - Slim version (=without AJAX) -->
+            <script src="./Collapsible sidebar using Bootstrap 4_files/jquery-3.3.1.slim.min.js.baixados"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <!-- Popper.JS -->
+            <script src="./Collapsible sidebar using Bootstrap 4_files/popper.min.js.baixados"
+                integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+                crossorigin="anonymous"></script>
+            <!-- Bootstrap JS -->
+            <script src="./Collapsible sidebar using Bootstrap 4_files/bootstrap.min.js.baixados"
+                integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+                crossorigin="anonymous"></script>
+            <!-- jQuery Custom Scroller CDN -->
+            <script
+                src="./Collapsible sidebar using Bootstrap 4_files/jquery.mCustomScrollbar.concat.min.js.baixados"></script>
+
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $("#sidebar").mCustomScrollbar({
+                        theme: "minimal"
+                    });
+
+                    $('#sidebarCollapse').on('click', function () {
+                        $('#sidebar, #content').toggleClass('active');
+                        $('.collapse.in').toggleClass('in');
+                        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                    });
+                });
+            </script>
+
+
+</body>
+
+</html>

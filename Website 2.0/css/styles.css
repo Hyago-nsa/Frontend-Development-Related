@@ -1,0 +1,338 @@
+/*
+    DEMO STYLE
+*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #999;
+}
+
+a,
+a:hover,
+a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0;
+}
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #282828;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar .sidebar-header {
+
+    padding: 20px;
+    background: #212121;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #17a2b8;;
+}
+
+#sidebar ul p {
+    color: #17a2b8;;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 7px;
+    font-size: 1.4em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #212121;
+    background: #C5C5C5;
+}
+
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: red
+}
+
+ul.CTAs {
+    padding: 20px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    font-size: 0.9em !important;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+.btn-info {
+    color: #C4C4C4;
+    background-color:#181818;
+    border-color: #17a2b8;
+  }
+
+.MUB {
+    background-color: #232323;
+    text-align: center;
+    padding: 2%;
+    margin-top: 12vh;
+}
+
+.logos {
+    margin-top: 12vh;
+}
+
+.logo {
+    position: flex;
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 12%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    
+}
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    background-color:#181818;
+    width: calc(100% - 250px);
+    padding: 40px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#content.active {
+    width: 100%;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FAFAFAd2;
+  }
+  
+h1 {
+    font-size: 64px;
+    font-family: 'Manrope', sans-serif;
+}
+
+h2 {
+    font-size: 51px;
+  }
+  
+h3 {
+    font-size: 38px;
+  }
+  
+h4 {
+    font-size: 25px;
+    font-weight: normal;
+  }
+  
+h5 {
+    font-size: 19px;
+    font-weight: normal;
+  }
+  
+h6 {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+/* ---------------------------------------------------
+    LANGUAGE STYLE
+----------------------------------------------------- */
+
+
+.language {
+    color: #17a2b8 !important;
+}
+
+.language:hover{
+    color: #FAFAFAd2 !important;
+}
+
+
+/* ---------------------------------------------------
+    APRESENTATION STYLE
+----------------------------------------------------- */
+
+.apresentation {
+    text-align: left;
+}
+
+
+/* ---------------------------------------------------
+    PAGE STYLE
+----------------------------------------------------- */
+
+.page {
+    text-align: center;
+}
+
+.navbar-dark{
+    background-color: #282828;
+    border-radius: 3.6vh;
+}
+
+.btn-info{
+    border-radius: 5vh;
+}
+
+.btn-dark{
+    background-color: #282828;
+    border-color: #282828;
+    border-radius: 5vh;
+}
+
+.btn-dark:hover {
+    color: #fff;
+    background-color: #282828;
+  }
+
+
+#element::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/* ---------------------------------------------------
+    PORTFOLIO STYLE
+----------------------------------------------------- */
+
+.portfolio {
+    text-align: right;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+
+    min-width: 25%;
+    min-height: 25%;
+
+    border-radius: 0.5vh;
+}
+
+.img-container{
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+    }
+    #content.active {
+        width: calc(100% - 250px);
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+@media (max-width: 1500px) {
+    .row .col-lg-3 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
